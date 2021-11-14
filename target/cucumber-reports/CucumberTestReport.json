@@ -1,0 +1,159 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12806800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "QualithonSteps.beforeHook(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "End to end treasure hunt scenario",
+        "description": "",
+        "id": "treausre-hunt-feature;end-to-end-treasure-hunt-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1705942400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to Qualithon home page",
+            "match": {
+              "location": "QualithonSteps.iNavigateToQualithonHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2897118100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the Qualithon 2021 Competition",
+            "match": {
+              "location": "QualithonSteps.iEnterTheQualithon2021Competition()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1501409200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I solve the puzzle 1 about random access",
+            "match": {
+              "location": "QualithonSteps.iSolveThePuzzle1AboutRandomAccess()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17870941000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I solve the puzzle 2 about video player",
+            "match": {
+              "location": "QualithonSteps.iSolveThePuzzle2AboutVideoPlayer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10295568600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I solve the puzzle 3 about crystal maze",
+            "match": {
+              "location": "QualithonSteps.iSolveThePuzzle3AboutCrystalMaze()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13865726900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I solve the puzzle 4 about map position",
+            "match": {
+              "location": "QualithonSteps.iSolveThePuzzle4AboutMapPosition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6574977400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I solve the puzzle 5 about capta entry",
+            "match": {
+              "location": "QualithonSteps.iSolveThePuzzle5AboutCaptaEntry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7428215400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I solve the puzzle 6 about socket gate",
+            "match": {
+              "location": "QualithonSteps.iSolveThePuzzle6AboutSocketGate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198767100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I finally got my treasure",
+            "match": {
+              "location": "QualithonSteps.iFinallyGotMyTreasure()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Hunt"
+          },
+          {
+            "name": "@TREASURE"
+          }
+        ]
+      }
+    ],
+    "name": "Treausre Hunt Feature",
+    "description": "",
+    "id": "treausre-hunt-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/TreasureHunt.feature",
+    "tags": [
+      {
+        "name": "@Hunt",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

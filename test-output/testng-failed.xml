@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="QualithonTreasureHunt(failed)" parallel="methods">
+    <classes>
+      <class name="runner.RunQualithonTest">
+        <methods>
+          <include name="afterHook"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="beforeHook"/>
+          <include name="tearDownClass"/>
+          <include name="beforeRun"/>
+          <include name="afterRun"/>
+        </methods>
+      </class> <!-- runner.RunQualithonTest -->
+    </classes>
+  </test> <!-- QualithonTreasureHunt(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

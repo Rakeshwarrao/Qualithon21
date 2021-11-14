@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <encoding>UTF-8</encoding>
+        <theme>dark</theme>
+        <documentTitle>Automation Report</documentTitle>
+        <reportName>Qualithon Automation Report</reportName>
+        <dateFormat>yyyy-MM-dd</dateFormat>
+    </configuration>
+</extentreports>

@@ -1,0 +1,9 @@
+api\WebsocketClientEndpoint$MessageHandler.class
+api\WSClient.class
+api\WebsocketClientEndpoint.class
+automation\SeleniumOperations.class
+utilities\ReportGeneration.class
+utilities\FileHandling.class
+utilities\ConfigFileReader.class
+api\WSClient$1.class
+runner\RunQualithonTest.class

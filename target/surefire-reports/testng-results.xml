@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="68102" started-at="2021-11-14T15:33:23 GMT" finished-at="2021-11-14T15:34:31 GMT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunQualithonTest@2b552920]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="QualithonTreasureHunt" duration-ms="68102" started-at="2021-11-14T15:33:23 GMT" finished-at="2021-11-14T15:34:31 GMT">
+      <class name="runner.RunQualithonTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunQualithonTest@2b552920]" name="setUpClass" is-config="true" duration-ms="102" started-at="2021-11-14T15:33:23 GMT" finished-at="2021-11-14T15:33:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeRun()[pri:0, instance:runner.RunQualithonTest@2b552920]" name="beforeRun" is-config="true" duration-ms="81" started-at="2021-11-14T15:33:23 GMT" finished-at="2021-11-14T15:33:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRun -->
+        <test-method status="PASS" signature="beforeHook()[pri:0, instance:runner.RunQualithonTest@2b552920]" name="beforeHook" is-config="true" duration-ms="4262" started-at="2021-11-14T15:33:23 GMT" finished-at="2021-11-14T15:33:28 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeHook -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunQualithonTest@2b552920]" name="runScenario" duration-ms="62618" started-at="2021-11-14T15:33:28 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-14T15:34:30 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["End to end treasure hunt scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Treausre Hunt Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterHook()[pri:0, instance:runner.RunQualithonTest@2b552920]" name="afterHook" is-config="true" duration-ms="738" started-at="2021-11-14T15:34:30 GMT" finished-at="2021-11-14T15:34:31 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterHook -->
+        <test-method status="PASS" signature="afterRun()[pri:0, instance:runner.RunQualithonTest@2b552920]" name="afterRun" is-config="true" duration-ms="239" started-at="2021-11-14T15:34:31 GMT" finished-at="2021-11-14T15:34:31 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRun -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunQualithonTest@2b552920]" name="tearDownClass" is-config="true" duration-ms="17" started-at="2021-11-14T15:34:31 GMT" finished-at="2021-11-14T15:34:31 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunQualithonTest -->
+    </test> <!-- QualithonTreasureHunt -->
+  </suite> <!-- Default Suite -->
+</testng-results>
